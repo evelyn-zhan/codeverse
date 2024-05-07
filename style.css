@@ -102,7 +102,7 @@ header .logo {
 
 /* ========== SIGN IN ========== */
 .signin-container {
-    padding: 1rem 4rem;
+    padding: .5rem 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,7 +165,6 @@ header .logo {
 }
 
 .signin-form form .signin-button {
-    width: 20%;
     align-self: center;
     padding: .8rem 1.5rem;
     font-size: 1rem;
@@ -207,7 +206,7 @@ header .logo {
 
 /* ========== SIGN UP ========== */
 .signup-container {
-    padding: 1rem 4rem;
+    padding: .5rem 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -270,7 +269,7 @@ header .logo {
 }
 
 .signup-form form .signup-button {
-    width: 15%;
+    /* width: 15%; */
     align-self: center;
     padding: .8rem 1.5rem;
     font-size: 1rem;
