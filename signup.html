@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" type="text/css">
+
+        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+        <title>CodeVerse</title>
+    </head>
+
+    <body>
+        <main>
+            <div class="signup-container">
+                <div class="signup-image">
+                    <img src="images/signup.png" alt="signup" width="100%" height="100%">
+                </div>
+                
+                <div class="signup-form">
+                    <img src="images/logo.png" alt="logo" width="45px" height="45px">
+                    <div style="text-align: center;">
+                        <h1>Sign Up to Code<span class="highlight">Verse</span></h1>
+                        <p class="tagline">Start your learning journey with us</p>
+                    </div>
+
+                    <form action="#">
+                        <div class="input-container">
+                            <div class="input-name">
+                                <label for="name">Name</label><br>
+                                <input class="input-box" type="text" name="name" id="name" placeholder="Enter your name" required>
+                            </div>
+
+                            <div class="input-email">
+                                <label for="email">E-mail</label><br>
+                                <input class="input-box" type="email" name="email" id="email" placeholder="Enter your e-mail" required>
+                            </div>
+
+                            <div class="input-password">
+                                <label for="password">Password</label><br>
+                                <input class="input-box" type="password" name="password" id="password" placeholder="Enter your password" minlength="8" required>
+                            </div>
+
+                            <div class="confirm-password">
+                                <label for="confirm-password">Confirm Password</label><br>
+                                <input class="input-box" type="password" name="confirm-password" id="confirm-password" placeholder="Confirm your password" minlength="8" required>
+                            </div>
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" name="agree" id="agree"> &nbsp; I agree to the Terms and Conditions
+                        </div>
+
+                        <input class="signup-button" type="submit" value="Sign Up">
+                    </form>
+
+                    <p>Want to sign up with other account?</p>
+                    <div class="signup-media">
+                        <a href="https://google.com" target="_blank">
+                            <img src="images/google.png" alt="Google" width="40px" height="40px">
+                        </a>
+                        <a href="https://facebook.com" target="_blank">
+                            <img src="images/facebook.png" alt="Facebook" width="40px" height="40px">
+                        </a>
+                        <a href="https://instagram.com" target="_blank">
+                            <img src="images/instagram.png" alt="Instagram" width="40px" height="40px">
+                        </a>
+                        <a href="https://github.com" target="_blank">
+                            <img src="images/github.png" alt="Github" width="40px" height="40px">
+                        </a>
+                    </div>
+
+                    <p class="signin">
+                        Already have an account?
+                        <a href="signin.html">Sign In</a>
+                    </p>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
