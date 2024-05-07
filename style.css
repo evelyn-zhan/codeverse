@@ -49,7 +49,7 @@ h1, h2, h3 {
 
 /* ========== HEADER ========== */
 header {
-    padding: 1.5rem 4.5rem;
+    padding: 1.3rem 4.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -414,7 +414,7 @@ header .logo {
     padding: 1.2rem 6rem 4rem 6rem;
     display: flex;
     flex-flow: column nowrap;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .about {
@@ -427,7 +427,7 @@ header .logo {
 .about-description {
     display: flex;
     flex-flow: column nowrap;
-    gap: 1.2rem;
+    gap: 1rem;
     text-align: justify;
 }
 
